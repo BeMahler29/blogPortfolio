@@ -16,4 +16,13 @@ J'ai bien respecté les consignes demandées pour le site :
 
 J'ai également essayé de respecter l'architecture MVC avec POO.
 
+Ma BDD s'appelle projet_passerelle_2 et les tables:
+
+ - articles (id (auto-increment), title, img (valeur par défaut = null), content, date (current_timestamp))
+ - projects (id (auto-increment), title, img (valeur par défaut = null), content, date (current_timestamp))
+ - testimonials (id (auto-increment), article_id (valeur par défaut = null), project_id (valeur par défaut = null), user_id, content, date_create (current_timestamp))
+ - users (id (auto-increment), username, email, password, secret, role (valeur par défaut = user), blocked (valeur par défaut = 0), creation_date (current_timestamp))
+
+
+
 Merci et salutations
