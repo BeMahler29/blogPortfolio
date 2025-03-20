@@ -14,7 +14,15 @@ J'ai bien respecté les consignes demandées pour le site :
   - Permettre aux utilisateurs connectés de laisser un avis sur chaque projet / article.
 
 
-J'ai également essayé de respecter l'architecture MVC avec POO.
+  - J'ai également essayé de respecter l'architecture MVC avec POO.  
+  - Lors de la modification ou suppression de l'image des articles / projets, cette dernière est supprimée pour éviter d'avoir des fichiers inutiles.
+
+Problèmes rencontrés: 
+
+  - J'ai eu un bug avec le footer qui ne restait pas collé en bas si je n'utilisait pas flexbox.
+  - Des problèmes sur comment récupérer l'url
+  - J'ai également eu des soucis lors des redirections avec les headers()
+
 
 Ma BDD s'appelle projet_passerelle_2 et les tables:
 
